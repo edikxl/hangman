@@ -1,6 +1,6 @@
 from hangman import *
 
-dataset = [ [ 'hi', [ 'h','o','i' ] ], [ 'notme', ['n','o','d','k'] ] ]
+dataset = [ [ 'hi', [ 'h','o','i' ] ], [ 'notme', ['n','o','d','k'] ], [ 'check', ['c','e','c'] ] ]
 
 template = """------------------------------
 Word:{}
