@@ -196,7 +196,7 @@ def show_possible_matches(my_word):
 
     matches = [ other_word for other_word in wordlist if match_with_gaps( my_word, other_word ) ]
 
-    print( matches if matches else 'No matches found' )
+    print( *matches if matches else 'No matches found' )
 
 def hangman_with_hints(secret_word):
     '''
@@ -249,5 +249,5 @@ You have { warnings } warnings left.
 if __name__ == "__main__":
 
     secret_word = choose_word(wordlist)
-    hangman(secret_word)
-    #hangman_with_hints(secret_word)
+    #hangman(secret_word)
+    hangman_with_hints(secret_word)
