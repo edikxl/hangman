@@ -15,7 +15,7 @@ for elem in dataset:
 
 #...
 
-dataset = [ [ 'a_ _ le', 'apple' ], [ 'a_ _ le', 'appla' ], [ 'h_ ', 'h' ] ]
+dataset = [ [ 'a_ _ le', 'apple' ], [ 'a_ _ le', 'appla' ], [ 'ap_ le', 'apple' ] ]
 
 template = """------------------------------
 My word:{}
